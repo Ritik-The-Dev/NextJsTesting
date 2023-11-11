@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0A0A0A;
+    color: white;
+  }
+  .ma{
+    margin-top: 8rem;
+  }
+.po{
+    margin: 3rem;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+#Pl{
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+    padding: 40px;
+}
+
+.skill1{
+ 
+    border: none;
+  border-radius: 1rem;
+  background-color: #333233;
+  display: flex;
+  margin: 2rem;
+}
+#skill1{
+    padding-left: 1rem;
+    margin-left: 1rem;
+    width: 5rem;
+    height: 4rem;
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+}
+#kj{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#po12{
+    font-size: 1rem;
+}
+.igpo{
+    margin: 1rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+    #Pl{
+        font-size: 1.17rem;
+        padding: 40px;
+        margin-bottom: 2rem;
+    }
+    .po{
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    #kj{
+        font-size: 1rem;
+    }
+    #skill1{
+        margin-right: 1.5rem;
+    }
+    .ma{
+        margin-top: 1rem;
+      }
+
+}
+@media screen and (max-width: 768px) {
+    #kj{
+        font-size: 1rem;
+    }
+    #skill1{
+        margin-right: 1.5rem;
+    }
+    .po{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #kj{
+        font-size: 2rem;
+    }
+    #skill1{
+        margin-right: 1.5rem;
+    }
+    .ma{
+        margin-top: 2rem;
+      }
+}
+@media screen and (min-width: 1200px) and (max-width: 1532px) {
+    #kj{
+        font-size: 2rem;
+    }
+    #skill1{
+        margin-right: 1.5rem;
+    }
+}
